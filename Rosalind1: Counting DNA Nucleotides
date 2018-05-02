@@ -1,0 +1,7 @@
+
+'''
+given:a string of length at most 1000nt
+return:4 integers(seperated by space) counting respective number of times that the symbols;
+
+'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
+'''
