@@ -1,7 +1,18 @@
 
 '''
-given:a string of length at most 1000nt
-return:4 integers(seperated by space) counting respective number of times that the symbols;
+given:a string s of length at most 1000nt
+return:4 integers(seperated by space) counting respective number of times that the symbols ACGT occur in s;
 
 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
 '''
+
+
+
+f = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
+a =list(f)
+b ={}
+for i in a:
+  b[i] = a.count(i)  
+print(c)
+
+# output:#   {'A': 20, 'G': 17, 'C': 12, 'T': 21}
