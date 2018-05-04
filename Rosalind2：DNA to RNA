@@ -1,0 +1,8 @@
+# Given: a DNA string t having length at most 1000nt.
+# Return: The transcribed RNA string of t.
+# (T → U )
+t = 'GATGGATGTAGGTAGATTAG'
+print(t.replace('T','U'))
+
+# output: GAUGGAUGUAGGUAGAUUAG
+# here is a thing to write down, when I run the jupyter ,a star appeared at the head of the cell . Actually , it was seizing-up , just press enter at the terminal ,then everything will be OK.
