@@ -1,0 +1,14 @@
+# Given: a DNA string s of length at most 1000bp.
+# Return: the reverse complement sc of s.
+def reverse(seq):
+    dict = {'A':'T','C':'G','T':'A','G':'C'}
+    
+    rever = list(reversed(seq))
+    comp = [dict[k] for k in rever]
+    revcom = ''.join(comp)
+    return revcom
+
+seq = 'GATGGATGTAGGTAGATTAG'  
+print(reverse(seq))
+
+# output： CTAATCTACCTACATCCATC
